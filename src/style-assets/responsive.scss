@@ -1,0 +1,648 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+
+ 
+    .btn-bookaseat{
+        display: block;
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    .counter-design {
+        padding: 40px 10px;
+
+        .counter-value {
+            font-size: 30px;
+        }
+
+        .counter-title {
+            font-size: 14px;
+
+        }
+
+        .dots-top
+        {
+            width: 59px;
+            top: -12px;
+            left: 7%;
+        }
+
+        .dots-bottom {
+            width: 59px;
+            bottom: 5px;
+            right: 0%;
+        }
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 767px) {
+
+    footer .footer-section img{
+        width: 152px;
+    }
+
+    footer .footer-section .social-media-list a{
+        margin-right: 16px;
+        font-size: 20px;
+    }
+
+    .accordion .accordion-button::before{
+        font-size: 28px;
+    }
+    .accordion .accordion-button:not(.collapsed)::before{
+        font-size: 32px;
+    }
+    .accordion .accordion-body {
+        padding: 0px 20px 12px 55px;
+    }
+
+    .faq-content{
+      font-size: 14px;
+
+    }
+
+    .user-designation {
+        font-size: 14px;
+    }
+
+    .syllabus-card-title{
+        font-size: 18px;
+    }
+
+    .syllabus-list{
+      font-size: 14px;
+    }
+
+    .App-logo{
+     width: 152px;
+    }
+    .home-content-section{
+        margin-bottom: 0px !important;
+    }
+
+    .circle-icon{
+        width: 40px;
+        height: 40px;
+        img {
+          width: 26px;
+        }
+       }
+
+
+    .btn-bookaseat,
+    .btn-block-green{
+       height: 40px !important;
+       font-size: 14px !important;
+    }
+
+    .upcoming-batches-card{
+        margin-bottom: 20px;
+
+        .title{
+          margin: 25px 0px;
+          font-size: 18px;
+        }
+
+        .course-list{
+          font-size: 14px;
+        }
+
+        .calendar-card{
+            min-width: 80px;
+            height: 80px;
+            .date{
+                font-size: 24px;
+            }
+            .month{
+                font-size: 16px;
+            }
+        }
+    }
+     
+
+    .home-button{
+      font-size: 14px;  
+    padding: 10px 30px;
+    }
+
+    .course-syllabus-desc{
+        font-size: 15px;
+    }
+
+    .our-founder-align{
+         text-align: center;
+    }
+
+    .creative-learning-card {
+       height: auto;
+       padding: 27px 26px;
+
+       .creative-learning-card-title{
+        font-size: 18px;
+       }
+       .creative-learning-card-desc{
+         font-size: 14px;
+       }
+    }
+    .cursor{
+        display: none;
+    }
+
+    .accordion .accordion-button::before{
+        right:22px;
+    }
+      
+
+    .accordion .accordion-button{
+        padding: 22px 14px;
+    }
+
+    .accordian-title{
+        &.count{
+            font-size: 13px !important;
+            padding-right: 20px;
+        }
+        font-size: 15px !important;
+        padding-right: 25px;
+      }
+
+    .testimonial-card {
+        padding: 15px 0px;
+        .testimonial-desc-section{
+
+            img{
+                display: none;
+            }
+            .testimonial-description {
+                font-size: 14px;
+                line-height: normal;
+            }
+        } 
+    } 
+
+
+    .testimonials-button{
+        display: none;
+        // width: 25px;
+        // height: 25px;
+        // svg {
+        //     width: 12px;
+        //     height: 6px;
+        // }
+    }
+    
+    .testimonial-design{
+
+        
+    .slick-dots{
+       padding-left: 0px;
+       text-align: center;
+      }
+
+        .testimonial-title {
+            font-size: 24px;
+            line-height: normal;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+
+       
+        .dots-top,
+        .dots-bottom {
+            display: none;
+        }
+
+        padding: 50px 20px;
+    }
+
+    footer .footer-section .footer-list-title{
+        pointer-events: auto !important;
+        padding: 20px 0px;
+        font-size: 14px;
+        margin-bottom: 0px !important;
+    }
+
+
+    .modal-backdrop.fade{
+      opacity: 1 !important;
+    }
+
+    .enroll-modal-title{
+        font-size: 20px;
+        line-height: normal;
+      }
+
+      .enroll-modal-desc {
+        font-size: 14px;
+        line-height: 150%;
+      }
+      
+ 
+    footer {
+        .footer-section{
+         padding: 49px 20px;
+        }
+    }
+
+    .bookaseat-design{
+        padding: 30px 24px;
+        .dots-top,
+        .dots-bottom {
+            display: none;
+        }
+
+        .enroll-badge {
+            font-size: 14px;
+            height: 26px;
+            margin-bottom: 25px;
+            min-width: 80px;
+            padding: 0px 15px;
+        }
+        .enroll-banner{
+            height: 159px;
+            margin-bottom: 30px;
+        }
+
+        .Enroll-title{
+            font-size: 18px;
+            line-height: 125%;
+            font-weight: 600;
+            margin-bottom: 17px;
+        }
+
+        .Enroll-timing-details {
+            font-size: 14px;
+            line-height: normal;
+        }
+    
+        .btn-bookaseat{
+            width: 150px;
+            height: 40px;
+            padding: 8px 30px;
+            font-size: 14px;
+        }
+    }
+    
+    .prices-design {
+     
+        .price-card{
+            .plan-title{
+                margin-bottom: 10px !important;
+                font-size: 15px;
+            }
+            .plan-price{
+                font-size: 28px;
+            }
+
+            .plan-note {
+                font-size: 14px;
+            }
+        }
+
+        text-align: center;
+
+        .dots-top,
+        .dots-bottom {
+            display: none;
+        }
+
+        padding: 50px 20px;
+
+        .prices-title {
+            font-weight: 600;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .prices-desc {
+            font-size: 15px;
+            line-height: 132%;
+            margin-bottom: 40px;
+        }
+
+        .plan-note {
+            display: block;
+
+            &.no-margin-btm {
+                margin-bottom: auto;
+            }
+
+            margin-bottom: 26px;
+        }
+    }
+
+    .body-wrap {
+        padding: 0px 10px;
+    }
+
+    .calendar-card,
+    .course-card {
+        .course-badge {
+            font-size: 14px;
+        }
+
+        .course-card-title {
+            font-size: 18px;
+        }
+
+        .course-list {
+            font-size: 14px;
+
+            span {
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .our-placementpartners-design {
+
+        .dots-top,
+        .dots-bottom {
+            display: none;
+        }
+
+        padding: 42px 14px;
+
+        .placement-partner-title {
+            font-size: 24px;
+            line-height: normal;
+        }
+
+
+    }
+
+
+    .founders-design {
+
+        .dots-top,
+        .dots-top-2,
+        .dots-bottom {
+            display: none;
+        }
+
+        padding: 50px 20px;
+        text-align: center;
+
+
+        .founder-title {
+            font-size: 24px;
+            line-height: normal;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .founder-desc {
+            font-size: 14px;
+            line-height: normal;
+            margin-bottom: 40px;
+        }
+
+        .founder-designation {
+            font-size: 14px;
+            &.mob-view {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    .creative-learning-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .creative-learning-desc {
+        font-size: 15px;
+        line-height: normal;
+        margin-bottom: 40px;
+    }
+
+
+    .students-activitiy-title,
+    .students-activitiy-title,
+    .courses-title {
+        font-size: 24px;
+        line-height: normal;
+
+    }
+
+    .course-card {
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+
+
+    .about-us-title {
+        font-size: 30px;
+        line-height: 135%;
+    }
+
+    .student-work-title {
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .student-work-desc {
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .enrollment-design {
+
+        .dots-top,
+        .dots-bottom {
+            display: none;
+        }
+
+        .btn-bookaseat {
+            width: 180px;
+            height: 40px;
+            font-size: 14px;
+        }
+
+        padding: 40px 10px;
+
+        .enrollment-title {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .studen-work-card {
+
+        .student-card-img{
+            margin-bottom: 14px;
+            height: 235px;            
+            border-radius: 20px;
+        }
+
+
+        .student-card-title {
+            font-size: 18px !important;
+            line-height: normal;
+        }
+
+        .student-card-desc {
+            font-size: 12px !important;
+            line-height: normal;
+        }
+    }
+
+
+
+}
+
+
+@media (min-width: 768px) and  (max-width: 992px) {
+    
+    .studen-work-card {
+        .student-card-img{
+            margin-bottom: 50px;
+            height: 320px;
+        }
+    }
+}
+
+
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+
+    
+
+.offcanvas {
+    background-color: $black !important;
+    .offcanvas-header{
+   
+      
+      border: none;
+      box-shadow: none;
+      .btn-close{
+        color: white;
+      }
+    }
+    
+    .offcanvas-body{
+     border: none;
+      padding: 30px 30px;
+      color: white;
+      background-color: $black;
+      position: relative;
+      .enroll-btn{
+        position: absolute;
+        bottom: 20px;
+        left: 15px;
+        right: 15px;
+        width: 85%;
+        margin: auto;
+        background-color: $theme-green !important;
+        color: $black;
+      }
+    }
+  }
+  
+
+    
+.section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+    .title{
+        margin-top: 40px;
+        font-size: 18px;
+    }
+
+    .height-100{
+        height: 50vh;
+    }
+
+.home-content-section{
+    margin-bottom: 80px;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    .home-title{
+        font-size: 30px;
+        margin-bottom: 20px;
+        line-height: 130%;
+    }
+
+    .home-desc{
+        font-size: 15px;
+        line-height: 130%;
+    }
+}
+
+    .custom-navbar{
+        padding: 21px !important;
+    }
+  
+    .enroll-btn{
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    .navbar-collapse{
+        padding: 25px;
+    }
+   
+    .custom-navbar .navbar-collapse .navbar-nav .nav-link.active:after{
+        bottom: 12px;
+        left: 100%;
+    }
+
+
+    .counter-design {
+        .row>div:not(:last-child) .counter-title {
+            margin-bottom: 40px;
+        }
+    }
+
+    .founder-desc {
+        margin-bottom: 40px;
+    }
+
+    .partner-logo {
+        width: 132.339px;
+        height: 24px;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1999px) {
+    .testimonial-user{
+        margin: auto;
+     }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+    .testimonial-user{
+       margin-left: auto;
+    }
+
+    .custom-navbar {
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+
+    }
+
+    .body-wrap {
+        position: relative;
+        padding: 0px 150px;
+    }
+
+    .btn-bookaseat {
+        width: 260px;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {}

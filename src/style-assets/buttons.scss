@@ -1,0 +1,132 @@
+@mixin glassHoverEffect () {
+       // glass hover effect
+       --transition-duration: 500ms;
+       --transition-easing: ease-out;
+       transition: transform 
+       var(--transition-duration) 
+       var(--transition-easing);
+       overflow: hidden; 
+       position: relative;
+       &::before {
+         content: '';
+         background: rgba($white, 0.4);
+         width: 60%;
+         height: 100%;
+         top: 0%;
+         left: -125%;
+         transform: skew(45deg);
+         position: absolute;
+         transition: left 
+           var(--transition-duration)
+           var(--transition-easing);
+       }
+       
+       &:hover {
+         &::before {
+           left: 150%;
+         }
+       }
+   // glass hover effect
+
+}
+
+.enroll-btn{
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.10) !important;
+    color: $white;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    padding: 10px 30px !important;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border: none !important;
+    &:hover{
+        background-color: $theme-green !important;
+        color: $black !important;
+    }
+
+
+    @include glassHoverEffect();
+
+
+      
+}
+
+.home-button{
+    background-color: $theme-green;
+    border: 0;
+    padding: 13px 40px;
+    justify-content: center;
+    align-items: center;
+    color: $black-2;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 100px;
+    @include glassHoverEffect();
+}
+
+
+.course-badge{
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.10);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    color: $white;
+    display: inline-block;
+    padding: 8px 15px;
+    
+    @include glassHoverEffect();
+}
+
+.btn-block-green{
+    width: 100%;
+    display: block;
+    border-radius: 100px !important;
+    font-size: 16px;
+    color: $black !important;
+    background-color: $theme-green !important;
+    font-weight: 500 !important;
+    border: none !important;
+    height: 56px !important;
+    
+    @include glassHoverEffect();
+}
+
+.btn-bookaseat{
+    max-width: 260px;
+    width:100%;
+    border-radius: 100px !important;
+    background-color: $black !important;
+    height: 56px;
+    color: $theme-green !important;
+
+    @include glassHoverEffect();
+}
+
+.testimonials-button {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    &.btn-prev{
+        border: 1px solid $black-2;
+    }
+    &.btn-next{
+        background: $black-2;
+        border: 1px solid $black-2;
+    }
+    
+    @include glassHoverEffect();
+}
+
+.disabled-btn{
+    opacity: 0.5;
+    pointer-events: none;
+}
